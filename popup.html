@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studyKit</title>
+    <style>
+        .b1{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 2px;
+            width: 200px;
+        }
+        .b2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h3{
+            text-align: center;
+        }
+        #i2{
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        #op{
+            text-align: center;
+        }
+        #i11,#i12,#op,#a1{
+            width: 70px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="b1">
+    <h3>notes:</h3>
+    </div><br>
+    <div class="b1">
+    <h3>calculator:</h3>
+    <div class="b2"><button id="i1">open</button></div>
+        <div id="i2" style="display: none; margin-top: 10px;">
+            <input type="text" id="i11">
+            <input type="text" id="i12">
+            <select id="op">
+                <option value="v1">+</option>
+                <option value="v2">-</option>
+                <option value="v3">x</option>
+                <option value="v4">/</option>
+                <option value="v5">%</option>
+            </select>
+            <button id="a1">ans</button>
+            <p id="p1"></p>
+        </div>
+    </div><br>
+    <div class="b1">
+    <h3>stopwatch:</h3>
+    <div class="b2"><button onclick="">start</button><button onclick="">pause</button><button onclick="">stop</button></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
