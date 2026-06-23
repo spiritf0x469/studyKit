@@ -47,3 +47,4 @@ studykit is a chrome extension designed to help users stay productive while stud
 
 * authentication
 * customizable themes
+* extension icon
