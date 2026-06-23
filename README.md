@@ -1,62 +1,49 @@
 # studyKit
 
-Version: 1.0.0
+version- 1.0.0
 
-## Description
+## description
 
-studyKit is a Chrome extension designed to help students stay organized while studying.
+studykit is a chrome extension designed to help users stay productive while studying. it combines note management,calculator and stopwatch functionalities in a single lightweight extension.
 
-### Planned Features
+## features
 
-#### Notes Management
+### notes management
 
-* Select text from any website.
-* Right-click and choose **"push to studyKit"** to save it.
-* View saved notes inside the extension popup.
-* Delete notes when no longer needed.
+* select text from any website.
+* right-click and choose **"push to studykit"** to save notes instantly.
+* view all saved notes inside the extension.
+* delete notes when no longer needed.
 
-#### Calculator
+### calculator
 
-* Open a built-in calculator from the extension popup.
-* Supports:
+* perform addition,subtraction,multiplication,division and modulo operations.
+* results are displayed with up to 2 decimal precision.
 
-  * Addition
-  * Subtraction
-  * Multiplication
-  * Division
-  * Modulo
-* Results displayed with up to 2 decimal places.
+### stopwatch
 
-#### Stopwatch
+* start,pause and reset study sessions.
+* continues tracking time even when the extension popup is closed.
+* useful for measuring study time while working across different tabs.
 
-* Start,pause and stop study sessions.
-* Track the time spent studying.
-* Display the final study duration when stopped.
+## how to use
 
-## Current Features
+1. download or clone the repository.
+2. open google chrome and navigate to `chrome://extensions/`.
+3. enable **developer mode** using the toggle in the top-right corner.
+4. click **load unpacked**.
+5. select the project folder containing the extension files.
+6. the studykit extension will appear in your extensions list.
+7. pin the extension to the toolbar for quick access.
 
-### Calculator
+## technologies used
 
-* Toggle calculator open/close.
-* Perform basic arithmetic operations.
-* Input validation for invalid values.
-* Division-by-zero handling.
-* Results formatted to 2 decimal places.
+* html
+* css
+* javascript
+* chrome extension apis
 
-## Tech Stack
+## future improvements
 
-* HTML
-* CSS
-* JavaScript
-* Chrome Extension (Manifest V3)
-
-## Status
-
-Work in Progress 🚧
-
-Upcoming updates:
-
-* Stopwatch
-* Notes Management
-* Chrome Storage Integration
-* Context Menu Support
+* authentication
+* customizable themes
