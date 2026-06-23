@@ -11,7 +11,7 @@ studykit is a chrome extension designed to help users stay productive while stud
 ### notes management
 
 * select text from any website.
-* right-click and choose **"push to studykit"** to save notes instantly.
+* right-click and choose **"push to studyKit"** to save notes instantly.
 * view all saved notes inside the extension.
 * delete notes when no longer needed.
 
