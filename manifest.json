@@ -3,5 +3,6 @@
     "name":"studyKit",
     "version":"1.0.0",
     "permissions":["storage","contextMenus"],
-    "action":{"default_popup":"popup.html"}
+    "action":{"default_popup":"popup.html"},
+    "background":{"service_worker":"background.js"}
 }
