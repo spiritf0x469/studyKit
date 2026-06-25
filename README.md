@@ -33,7 +33,7 @@ studykit is a chrome extension designed to help users stay productive while stud
 3. enable **developer mode** using the toggle in the top-right corner.
 4. click **load unpacked**.
 5. select the project folder containing the extension files.
-6. the studykit extension will appear in your extensions list.
+6. the studyKit extension will appear in your extensions list.
 7. pin the extension to the toolbar for quick access.
 
 ## technologies used
