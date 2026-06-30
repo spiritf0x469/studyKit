@@ -4,7 +4,7 @@
 
 ## ✨ description
 
-studykit is a chrome extension designed to help users stay productive while studying. it combines note management, calculator and stopwatch functionalities in a single lightweight extension.
+studyKit is a chrome extension designed to help users stay productive while studying. it combines note management, calculator and stopwatch functionalities in a single lightweight extension.
 
 ## 🚀 features
 
